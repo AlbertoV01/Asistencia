@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Asistencia.Alumnos"
+             xmlns:local="clr-namespace:Asistencia"
+             Title="Alumnos"
+             BackgroundColor="White">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            >
+
+            <Image Source="alumnos.png" HeightRequest="150" WidthRequest="150"/>
+
+            <VerticalStackLayout>
+                <Label Text="WELCOME" FontSize="28" TextColor="Gray" HorizontalTextAlignment="Center"/>
+                <Label Text="PAGE TO REGISTER STUDENT" FontSize="18" TextColor="Gray" HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HeightRequest="45" Margin="-25, 0, 0,5" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="noControl" TextColor="Black" Margin="25, 0, 0, 0" VerticalOptions="Center" Placeholder="NoControl" Keyboard="Default"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HeightRequest="45" Margin="-25, 0, 0, 5" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="studentName" TextColor="Black" Margin="25, 0, 0, 0" VerticalOptions="Center" Placeholder="STUDENT NAME" Keyboard="Default" IsPassword="False"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HeightRequest="45" Margin="-25, 0, 0, 5" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="lastName" TextColor="Black" Margin="25, 0, 0, 0" VerticalOptions="Center" Placeholder="LAST NAME" Keyboard="Default" IsPassword="False"/>
+                </Frame>
+            </StackLayout>
+
+            <Button Text="REGISTER STUDENT" HorizontalOptions="Center" BackgroundColor="Blue" WidthRequest="100" CornerRadius="20" Clicked="Button_Clicked"/>
+
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

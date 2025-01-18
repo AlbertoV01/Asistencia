@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE544DB5-830C-4F4E-9BC8-3E11CA37F214}|Asistencia\\Asistencia.csproj|c:\\users\\alber\\onedrive\\escritorio\\asistencia\\asistencia\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE544DB5-830C-4F4E-9BC8-3E11CA37F214}|Asistencia\\Asistencia.csproj|solutionrelative:asistencia\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE544DB5-830C-4F4E-9BC8-3E11CA37F214}|Asistencia\\Asistencia.csproj|c:\\users\\alber\\onedrive\\escritorio\\asistencia\\asistencia\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE544DB5-830C-4F4E-9BC8-3E11CA37F214}|Asistencia\\Asistencia.csproj|solutionrelative:asistencia\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE544DB5-830C-4F4E-9BC8-3E11CA37F214}|Asistencia\\Asistencia.csproj|c:\\users\\alber\\onedrive\\escritorio\\asistencia\\asistencia\\tomarasistencia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE544DB5-830C-4F4E-9BC8-3E11CA37F214}|Asistencia\\Asistencia.csproj|solutionrelative:asistencia\\tomarasistencia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\Asistencia\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Asistencia\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\Asistencia\\MainPage.xaml.cs",
+              "RelativeToolTip": "Asistencia\\MainPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T22:27:27.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\Asistencia\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Asistencia\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\Asistencia\\MainPage.xaml",
+              "RelativeToolTip": "Asistencia\\MainPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T22:27:23.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TomarAsistencia.xaml",
+              "DocumentMoniker": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\Asistencia\\TomarAsistencia.xaml",
+              "RelativeDocumentMoniker": "Asistencia\\TomarAsistencia.xaml",
+              "ToolTip": "C:\\Users\\Alber\\OneDrive\\Escritorio\\Asistencia\\Asistencia\\TomarAsistencia.xaml",
+              "RelativeToolTip": "Asistencia\\TomarAsistencia.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T22:22:39.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

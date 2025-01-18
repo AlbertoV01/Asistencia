@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065010497400",
+    "project_id": "notificaciones-push-b1f20",
+    "storage_bucket": "notificaciones-push-b1f20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065010497400:android:e43e8d9eddff93bc16ea8d",
+        "android_client_info": {
+          "package_name": "com.companyname.asistencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065010497400-m7v3fmfbisfad8pfhodftl8t6b0gpu0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsRL57ng37uVuJQ6ZWdbvCA2sxe5BnoFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065010497400-m7v3fmfbisfad8pfhodftl8t6b0gpu0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

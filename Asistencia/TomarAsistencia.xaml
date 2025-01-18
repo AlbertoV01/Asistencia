@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Asistencia.TomarAsistencia"
+             xmlns:local="clr-namespace:Asistencia"
+            x:Name="tAsistencia"
+             Title="Asistencia"
+             >
+
+  
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            BackgroundColor="White">
+
+            <Image Source="asistencia.png" HeightRequest="150" WidthRequest="150"/>
+
+            <VerticalStackLayout>
+                <Label Text="WELCOME" FontSize="28" TextColor="Gray" HorizontalTextAlignment="Center"/>
+                <Label Text="TO LIST ASSISTANCE" FontSize="18" TextColor="Gray" HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HeightRequest="45" Margin="-25, 0, 0,5" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="nombreMateria" TextColor="Black" Margin="25, 0, 0, 0" VerticalOptions="Center" Placeholder="NOMBRE DE LA MATERIA" Keyboard="Default"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame HeightRequest="45" Margin="-25, 0, 0, 5" Padding="0" HasShadow="True" BorderColor="White" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="grupo" TextColor="Black" Margin="25, 0, 0, 0" VerticalOptions="Center" Placeholder="GRUPO" Keyboard="Default" IsPassword="False"/>
+                </Frame>
+
+            </StackLayout>
+            
+            <Button x:Name="bton" TextColor="White" Text="MOSTRAR LISTA DE ALUMNOS" HorizontalOptions="Center" BackgroundColor="Green" WidthRequest="300"  CornerRadius="20" Clicked="bton_Clicked"  />
+
+            <CollectionView x:Name="collectionView" HeightRequest="500" WidthRequest="300" 
+                            VerticalOptions="CenterAndExpand" BackgroundColor="LightGray" SelectionMode="None"  >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+                            <CheckBox x:Name="cb" Grid.Column="0" IsChecked="{Binding Asistencia}" />
+                            <Label Grid.Column="1" TextColor="Black" Text="{Binding Nombre}" VerticalTextAlignment="Center" Margin="10,0,0,0" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button x:Name="listaasistencia" Text="GUARDAR LISTA DE ASISTENCIA" HorizontalOptions="Center" BackgroundColor="Blue"  WidthRequest="100" CornerRadius="20" Clicked="ListaAsistencia_Clicked"  />
+            <DatePicker BackgroundColor="Gray" x:Name="fechaAsistencia"/>
+            <Button x:Name="mostrarListaAsistencia" Text="MOSTRAR LISTA DE ASISTENCIA" HorizontalOptions="Center" BackgroundColor="Blue" Clicked="mostrarListaAsistencia_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
